@@ -1,0 +1,23 @@
+h2 {
+  font-size: 20px;
+  margin-left: 180px;
+}
+
+.main-title {
+  background-image: url("../img/marketrow.jpg");
+  color: white;
+  padding-top: 38%;
+  padding-bottom: 1%;
+  padding-left: 2%;
+}
+
+.quality-section {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 17%;
+}
+
+.quality {
+  margin-top: 5px;
+}
