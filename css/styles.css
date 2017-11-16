@@ -1,23 +1,43 @@
-h2 {
-  font-size: 20px;
-  margin-left: 180px;
+@font-face {
+  font-family: fragmentcore;
+  src: url("../fonts/Fragmentcore.otf") format("truetype");
 }
 
-.main-title {
-  background-image: url("../img/marketrow.jpg");
+@font-face {
+  font-family: pickle;
+  src: url("../fonts/cutepickle.ttf") format("truetype");
+}
+
+body {
+  font-family: fragmentcore;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+.header {
+  background: #dddddd;
+  padding: 10%;
+}
+
+.header h1 {
+  text-align: center;
+}
+
+.navbar {
+  font-family: pickle;
+  font-size: 15px;
+  font-weight: bold;
+  display: inline-block;
+  background-color: #999999;
   color: white;
-  padding-top: 38%;
-  padding-bottom: 1%;
-  padding-left: 2%;
+  width: 100%;
 }
 
-.quality-section {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50px;
-  width: 17%;
-}
-
-.quality {
-  margin-top: 5px;
+.navbar li {
+  list-style: none;
+  display: block;
+  float: left;
+  margin-right: 20px;
 }
